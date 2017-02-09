@@ -75,14 +75,14 @@ public class Test {
 			d.add(data);
 		}
 		try {
-			json = JSON.toJSONString(d,SerializerFeature.WriteNullStringAsEmpty);
+			//json = JSON.toJSONString(d,SerializerFeature.WriteNullStringAsEmpty);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		logger.debug("fastjson1:" + json);
 		try {
-			json = JSON.toJSONString(l);
+			//json = JSON.toJSONString(l);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
